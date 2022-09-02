@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juego</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="game-container">
+      <canvas id="game"></canvas>
+
+      <div class="btns">
+        <button id="up">ARRIBA</button>
+        <button id="left">IZQ.</button>
+        <button id="right">DER.</button>
+        <button id="down">ABAJO</button>
+      </div>
+
+      <div class="messages">
+        <p>VIDAS: <span id="lives"></span></p>
+        <p>TIEMPO: ⏱ <span id="time"></span></p>
+        <p>RECORD: 🏁 <span id="record"></span></p>
+        <p id="result"></p>
+      </div>
+    </main>
+
+    <script src="./maps.js"></script>
+    <script src="./game.js"></script>
+  </body>
 </html>
