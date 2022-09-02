@@ -7,11 +7,8 @@ html {
   font-size: 62.5%;
 }
 body {
-  background-image: url(./img/diseno-fondo-pixeles-tonos-amarillos-naranjas_1017-27171.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 238, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .game-container {
   display: flex;
@@ -23,14 +20,14 @@ body {
   border: 3px solid rgb(80, 75, 75);
   border-radius: 8px;
   background-color: khaki;
-  margin-top: 20px;
+  margin-top: 35px;
 }
 .game-container .btns {
   display: flex;
   justify-content: space-between;
   /* background-color: rgb(24, 36, 36); */
   background-color: rgba(166, 221, 14, 0.534);
-  margin: 15px;
+  margin: 35px;
   padding: 5px;
   width: 82%;
   border: 2px solid rgb(166, 221, 14);
@@ -48,9 +45,9 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
-  margin: 4px;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
   border: 2px solid rgb(166, 221, 14);
   border-radius: 100px;
 }
@@ -61,6 +58,6 @@ button {
 }
 .messages p {
   color: rgb(20, 18, 18);
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-weight: bold;
 }
